@@ -1,0 +1,22 @@
+name       : perl-dbd-sqlite
+version    : 1.54
+release    : 1
+source     :
+    - http://search.cpan.org/CPAN/authors/id/I/IS/ISHIGAKI/DBD-SQLite-1.54.tar.gz : 3929a6dbd8d71630f0cb57f85dcef9588cd7ac4c9fa12db79df77b9d3a4d7269
+license    :
+    - Artistic-1.0
+    - GPL-2.0
+component  : programming.perl
+summary    : Self-contained RDBMS in a DBI Driver
+description: |
+    DBD::SQLite is a Perl DBI driver for SQLite, that includes the entire thing in the distribution. So in order to get a fast transaction capable RDBMS working for your perl project you simply have to install this module, and nothing else.
+builddeps  :
+    - perl-dbi
+rundeps    :
+    - perl-dbi
+setup      : |
+    %perl_setup
+build      : |
+    %perl_build
+install    : |
+    %perl_install
