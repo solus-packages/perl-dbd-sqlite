@@ -1,11 +1,11 @@
 name       : perl-dbd-sqlite
-version    : 1.54
-release    : 3
+version    : '1.60'
+release    : 4
 source     :
-    - http://search.cpan.org/CPAN/authors/id/I/IS/ISHIGAKI/DBD-SQLite-1.54.tar.gz : 3929a6dbd8d71630f0cb57f85dcef9588cd7ac4c9fa12db79df77b9d3a4d7269
+    - http://search.cpan.org/CPAN/authors/id/I/IS/ISHIGAKI/DBD-SQLite-1.60.tar.gz : 280b2e30e2d9fcd284febda656b80530c70b38cfcbf3132c94257f1e1d303fc3
 license    :
     - Artistic-1.0
-    - GPL-2.0
+    - GPL-2.0-or-later
 component  : programming.perl
 summary    : Self-contained RDBMS in a DBI Driver
 description: |
@@ -20,3 +20,5 @@ build      : |
     %perl_build
 install    : |
     %perl_install
+check      : |
+    %make test

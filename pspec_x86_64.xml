@@ -6,7 +6,7 @@
             <Email>pyu@riseup.net</Email>
         </Packager>
         <License>Artistic-1.0</License>
-        <License>GPL-2.0</License>
+        <License>GPL-2.0-or-later</License>
         <PartOf>programming.perl</PartOf>
         <Summary xml:lang="en">Self-contained RDBMS in a DBI Driver</Summary>
         <Description xml:lang="en">DBD::SQLite is a Perl DBI driver for SQLite, that includes the entire thing in the distribution. So in order to get a fast transaction capable RDBMS working for your perl project you simply have to install this module, and nothing else.
@@ -24,6 +24,7 @@
             <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.28/x86_64-linux-thread-multi/DBD/SQLite/Constants.pm</Path>
             <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.28/x86_64-linux-thread-multi/DBD/SQLite/Cookbook.pod</Path>
             <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.28/x86_64-linux-thread-multi/DBD/SQLite/Fulltext_search.pod</Path>
+            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.28/x86_64-linux-thread-multi/DBD/SQLite/GetInfo.pm</Path>
             <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.28/x86_64-linux-thread-multi/DBD/SQLite/VirtualTable.pm</Path>
             <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.28/x86_64-linux-thread-multi/DBD/SQLite/VirtualTable/FileContent.pm</Path>
             <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.28/x86_64-linux-thread-multi/DBD/SQLite/VirtualTable/PerlData.pm</Path>
@@ -42,9 +43,9 @@
         </Files>
     </Package>
     <History>
-        <Update release="3">
-            <Date>2018-11-21</Date>
-            <Version>1.54</Version>
+        <Update release="4">
+            <Date>2018-12-19</Date>
+            <Version>1.60</Version>
             <Comment>Packaging update</Comment>
             <Name>Pierre-Yves</Name>
             <Email>pyu@riseup.net</Email>
