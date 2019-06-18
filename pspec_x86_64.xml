@@ -11,7 +11,7 @@
         <Summary xml:lang="en">Self-contained RDBMS in a DBI Driver</Summary>
         <Description xml:lang="en">DBD::SQLite is a Perl DBI driver for SQLite, that includes the entire thing in the distribution. So in order to get a fast transaction capable RDBMS working for your perl project you simply have to install this module, and nothing else.
 </Description>
-        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://solus-project.com/sources/README.Solus</Archive>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://getsol.us/sources/README.Solus</Archive>
     </Source>
     <Package>
         <Name>perl-dbd-sqlite</Name>
@@ -20,19 +20,19 @@
 </Description>
         <PartOf>programming.perl</PartOf>
         <Files>
-            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.28/x86_64-linux-thread-multi/DBD/SQLite.pm</Path>
-            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.28/x86_64-linux-thread-multi/DBD/SQLite/Constants.pm</Path>
-            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.28/x86_64-linux-thread-multi/DBD/SQLite/Cookbook.pod</Path>
-            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.28/x86_64-linux-thread-multi/DBD/SQLite/Fulltext_search.pod</Path>
-            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.28/x86_64-linux-thread-multi/DBD/SQLite/GetInfo.pm</Path>
-            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.28/x86_64-linux-thread-multi/DBD/SQLite/VirtualTable.pm</Path>
-            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.28/x86_64-linux-thread-multi/DBD/SQLite/VirtualTable/FileContent.pm</Path>
-            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.28/x86_64-linux-thread-multi/DBD/SQLite/VirtualTable/PerlData.pm</Path>
-            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.28/x86_64-linux-thread-multi/auto/DBD/SQLite/.packlist</Path>
-            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.28/x86_64-linux-thread-multi/auto/DBD/SQLite/SQLite.so</Path>
-            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.28/x86_64-linux-thread-multi/auto/share/dist/DBD-SQLite/sqlite3.c</Path>
-            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.28/x86_64-linux-thread-multi/auto/share/dist/DBD-SQLite/sqlite3.h</Path>
-            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.28/x86_64-linux-thread-multi/auto/share/dist/DBD-SQLite/sqlite3ext.h</Path>
+            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.30/x86_64-linux-thread-multi/DBD/SQLite.pm</Path>
+            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.30/x86_64-linux-thread-multi/DBD/SQLite/Constants.pm</Path>
+            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.30/x86_64-linux-thread-multi/DBD/SQLite/Cookbook.pod</Path>
+            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.30/x86_64-linux-thread-multi/DBD/SQLite/Fulltext_search.pod</Path>
+            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.30/x86_64-linux-thread-multi/DBD/SQLite/GetInfo.pm</Path>
+            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.30/x86_64-linux-thread-multi/DBD/SQLite/VirtualTable.pm</Path>
+            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.30/x86_64-linux-thread-multi/DBD/SQLite/VirtualTable/FileContent.pm</Path>
+            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.30/x86_64-linux-thread-multi/DBD/SQLite/VirtualTable/PerlData.pm</Path>
+            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.30/x86_64-linux-thread-multi/auto/DBD/SQLite/.packlist</Path>
+            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.30/x86_64-linux-thread-multi/auto/DBD/SQLite/SQLite.so</Path>
+            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.30/x86_64-linux-thread-multi/auto/share/dist/DBD-SQLite/sqlite3.c</Path>
+            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.30/x86_64-linux-thread-multi/auto/share/dist/DBD-SQLite/sqlite3.h</Path>
+            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.30/x86_64-linux-thread-multi/auto/share/dist/DBD-SQLite/sqlite3ext.h</Path>
             <Path fileType="man">/usr/share/man/man3/DBD::SQLite.3</Path>
             <Path fileType="man">/usr/share/man/man3/DBD::SQLite::Constants.3</Path>
             <Path fileType="man">/usr/share/man/man3/DBD::SQLite::Cookbook.3</Path>
@@ -43,8 +43,8 @@
         </Files>
     </Package>
     <History>
-        <Update release="5">
-            <Date>2018-12-30</Date>
+        <Update release="6">
+            <Date>2019-06-15</Date>
             <Version>1.62</Version>
             <Comment>Packaging update</Comment>
             <Name>Pierre-Yves</Name>
