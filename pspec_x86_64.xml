@@ -20,19 +20,19 @@
 </Description>
         <PartOf>programming.perl</PartOf>
         <Files>
-            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.30/x86_64-linux-thread-multi/DBD/SQLite.pm</Path>
-            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.30/x86_64-linux-thread-multi/DBD/SQLite/Constants.pm</Path>
-            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.30/x86_64-linux-thread-multi/DBD/SQLite/Cookbook.pod</Path>
-            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.30/x86_64-linux-thread-multi/DBD/SQLite/Fulltext_search.pod</Path>
-            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.30/x86_64-linux-thread-multi/DBD/SQLite/GetInfo.pm</Path>
-            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.30/x86_64-linux-thread-multi/DBD/SQLite/VirtualTable.pm</Path>
-            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.30/x86_64-linux-thread-multi/DBD/SQLite/VirtualTable/FileContent.pm</Path>
-            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.30/x86_64-linux-thread-multi/DBD/SQLite/VirtualTable/PerlData.pm</Path>
-            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.30/x86_64-linux-thread-multi/auto/DBD/SQLite/.packlist</Path>
-            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.30/x86_64-linux-thread-multi/auto/DBD/SQLite/SQLite.so</Path>
-            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.30/x86_64-linux-thread-multi/auto/share/dist/DBD-SQLite/sqlite3.c</Path>
-            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.30/x86_64-linux-thread-multi/auto/share/dist/DBD-SQLite/sqlite3.h</Path>
-            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.30/x86_64-linux-thread-multi/auto/share/dist/DBD-SQLite/sqlite3ext.h</Path>
+            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.32/x86_64-linux-thread-multi/DBD/SQLite.pm</Path>
+            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.32/x86_64-linux-thread-multi/DBD/SQLite/Constants.pm</Path>
+            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.32/x86_64-linux-thread-multi/DBD/SQLite/Cookbook.pod</Path>
+            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.32/x86_64-linux-thread-multi/DBD/SQLite/Fulltext_search.pod</Path>
+            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.32/x86_64-linux-thread-multi/DBD/SQLite/GetInfo.pm</Path>
+            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.32/x86_64-linux-thread-multi/DBD/SQLite/VirtualTable.pm</Path>
+            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.32/x86_64-linux-thread-multi/DBD/SQLite/VirtualTable/FileContent.pm</Path>
+            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.32/x86_64-linux-thread-multi/DBD/SQLite/VirtualTable/PerlData.pm</Path>
+            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.32/x86_64-linux-thread-multi/auto/DBD/SQLite/.packlist</Path>
+            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.32/x86_64-linux-thread-multi/auto/DBD/SQLite/SQLite.so</Path>
+            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.32/x86_64-linux-thread-multi/auto/share/dist/DBD-SQLite/sqlite3.c</Path>
+            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.32/x86_64-linux-thread-multi/auto/share/dist/DBD-SQLite/sqlite3.h</Path>
+            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.32/x86_64-linux-thread-multi/auto/share/dist/DBD-SQLite/sqlite3ext.h</Path>
             <Path fileType="man">/usr/share/man/man3/DBD::SQLite.3</Path>
             <Path fileType="man">/usr/share/man/man3/DBD::SQLite::Constants.3</Path>
             <Path fileType="man">/usr/share/man/man3/DBD::SQLite::Cookbook.3</Path>
@@ -43,8 +43,8 @@
         </Files>
     </Package>
     <History>
-        <Update release="6">
-            <Date>2019-06-15</Date>
+        <Update release="7">
+            <Date>2020-06-27</Date>
             <Version>1.62</Version>
             <Comment>Packaging update</Comment>
             <Name>Pierre-Yves</Name>
