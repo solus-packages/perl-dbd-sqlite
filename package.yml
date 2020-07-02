@@ -1,8 +1,8 @@
 name       : perl-dbd-sqlite
-version    : 1.62
-release    : 7
+version    : '1.64'
+release    : 8
 source     :
-    - https://search.cpan.org/CPAN/authors/id/I/IS/ISHIGAKI/DBD-SQLite-1.62.tar.gz : bd82ef322a9e5469a7a62d845c32fad1188b76ccb49a88520cec768343cce85c
+    - https://cpan.metacpan.org/authors/id/I/IS/ISHIGAKI/DBD-SQLite-1.64.tar.gz : f4ae8f7b50842305566aadd90f7bfd12a9e32b6c603a9b1c1529e73eb82aff01
 license    :
     - Artistic-1.0
     - GPL-2.0-or-later
