@@ -78,6 +78,7 @@ SQLite.so:sqlite3_context_db_handle
 SQLite.so:sqlite3_create_collation
 SQLite.so:sqlite3_create_collation16
 SQLite.so:sqlite3_create_collation_v2
+SQLite.so:sqlite3_create_filename
 SQLite.so:sqlite3_create_function
 SQLite.so:sqlite3_create_function16
 SQLite.so:sqlite3_create_function_v2
@@ -86,6 +87,7 @@ SQLite.so:sqlite3_create_module_v2
 SQLite.so:sqlite3_create_window_function
 SQLite.so:sqlite3_data_count
 SQLite.so:sqlite3_data_directory
+SQLite.so:sqlite3_database_file_object
 SQLite.so:sqlite3_db_cacheflush
 SQLite.so:sqlite3_db_config
 SQLite.so:sqlite3_db_filename
@@ -95,6 +97,8 @@ SQLite.so:sqlite3_db_readonly
 SQLite.so:sqlite3_db_release_memory
 SQLite.so:sqlite3_db_status
 SQLite.so:sqlite3_declare_vtab
+SQLite.so:sqlite3_deserialize
+SQLite.so:sqlite3_drop_modules
 SQLite.so:sqlite3_enable_load_extension
 SQLite.so:sqlite3_enable_shared_cache
 SQLite.so:sqlite3_errcode
@@ -107,15 +111,18 @@ SQLite.so:sqlite3_expired
 SQLite.so:sqlite3_extended_errcode
 SQLite.so:sqlite3_extended_result_codes
 SQLite.so:sqlite3_file_control
+SQLite.so:sqlite3_filename_database
+SQLite.so:sqlite3_filename_journal
+SQLite.so:sqlite3_filename_wal
 SQLite.so:sqlite3_finalize
 SQLite.so:sqlite3_free
+SQLite.so:sqlite3_free_filename
 SQLite.so:sqlite3_free_table
-SQLite.so:sqlite3_fts3_may_be_corrupt
-SQLite.so:sqlite3_fts5_may_be_corrupt
 SQLite.so:sqlite3_get_autocommit
 SQLite.so:sqlite3_get_auxdata
 SQLite.so:sqlite3_get_table
 SQLite.so:sqlite3_global_recover
+SQLite.so:sqlite3_hard_heap_limit64
 SQLite.so:sqlite3_initialize
 SQLite.so:sqlite3_interrupt
 SQLite.so:sqlite3_keyword_check
@@ -184,6 +191,7 @@ SQLite.so:sqlite3_result_zeroblob64
 SQLite.so:sqlite3_rollback_hook
 SQLite.so:sqlite3_rtree_geometry_callback
 SQLite.so:sqlite3_rtree_query_callback
+SQLite.so:sqlite3_serialize
 SQLite.so:sqlite3_set_authorizer
 SQLite.so:sqlite3_set_auxdata
 SQLite.so:sqlite3_set_last_insert_rowid
@@ -226,9 +234,11 @@ SQLite.so:sqlite3_total_changes
 SQLite.so:sqlite3_trace
 SQLite.so:sqlite3_trace_v2
 SQLite.so:sqlite3_transfer_bindings
+SQLite.so:sqlite3_txn_state
 SQLite.so:sqlite3_update_hook
 SQLite.so:sqlite3_uri_boolean
 SQLite.so:sqlite3_uri_int64
+SQLite.so:sqlite3_uri_key
 SQLite.so:sqlite3_uri_parameter
 SQLite.so:sqlite3_user_data
 SQLite.so:sqlite3_value_blob
@@ -275,7 +285,8 @@ SQLite.so:sqlite_db_backup_to_dbh
 SQLite.so:sqlite_db_backup_to_file
 SQLite.so:sqlite_db_busy_timeout
 SQLite.so:sqlite_db_collation_dispatcher
-SQLite.so:sqlite_db_collation_dispatcher_utf8
+SQLite.so:sqlite_db_collation_dispatcher_utf8_fallback
+SQLite.so:sqlite_db_collation_dispatcher_utf8_naive
 SQLite.so:sqlite_db_collation_needed
 SQLite.so:sqlite_db_collation_needed_dispatcher
 SQLite.so:sqlite_db_commit
@@ -307,6 +318,7 @@ SQLite.so:sqlite_db_set_authorizer
 SQLite.so:sqlite_db_table_column_metadata
 SQLite.so:sqlite_db_trace
 SQLite.so:sqlite_db_trace_dispatcher
+SQLite.so:sqlite_db_txn_state
 SQLite.so:sqlite_db_update_dispatcher
 SQLite.so:sqlite_db_update_hook
 SQLite.so:sqlite_discon_all
