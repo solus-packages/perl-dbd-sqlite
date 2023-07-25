@@ -1,3 +1,4 @@
+SQLite.so:_lc
 SQLite.so:_sqlite_atoi64
 SQLite.so:_sqlite_db_status
 SQLite.so:_sqlite_exec
@@ -11,6 +12,7 @@ SQLite.so:perl_tokenizer_Module
 SQLite.so:sqlite3_aggregate_context
 SQLite.so:sqlite3_aggregate_count
 SQLite.so:sqlite3_auto_extension
+SQLite.so:sqlite3_autovacuum_pages
 SQLite.so:sqlite3_backup_finish
 SQLite.so:sqlite3_backup_init
 SQLite.so:sqlite3_backup_pagecount
@@ -42,6 +44,7 @@ SQLite.so:sqlite3_busy_handler
 SQLite.so:sqlite3_busy_timeout
 SQLite.so:sqlite3_cancel_auto_extension
 SQLite.so:sqlite3_changes
+SQLite.so:sqlite3_changes64
 SQLite.so:sqlite3_clear_bindings
 SQLite.so:sqlite3_close
 SQLite.so:sqlite3_close_v2
@@ -93,6 +96,7 @@ SQLite.so:sqlite3_db_config
 SQLite.so:sqlite3_db_filename
 SQLite.so:sqlite3_db_handle
 SQLite.so:sqlite3_db_mutex
+SQLite.so:sqlite3_db_name
 SQLite.so:sqlite3_db_readonly
 SQLite.so:sqlite3_db_release_memory
 SQLite.so:sqlite3_db_status
@@ -104,6 +108,7 @@ SQLite.so:sqlite3_enable_shared_cache
 SQLite.so:sqlite3_errcode
 SQLite.so:sqlite3_errmsg
 SQLite.so:sqlite3_errmsg16
+SQLite.so:sqlite3_error_offset
 SQLite.so:sqlite3_errstr
 SQLite.so:sqlite3_exec
 SQLite.so:sqlite3_expanded_sql
@@ -231,6 +236,7 @@ SQLite.so:sqlite3_test_control
 SQLite.so:sqlite3_thread_cleanup
 SQLite.so:sqlite3_threadsafe
 SQLite.so:sqlite3_total_changes
+SQLite.so:sqlite3_total_changes64
 SQLite.so:sqlite3_trace
 SQLite.so:sqlite3_trace_v2
 SQLite.so:sqlite3_transfer_bindings
@@ -267,8 +273,13 @@ SQLite.so:sqlite3_vmprintf
 SQLite.so:sqlite3_vsnprintf
 SQLite.so:sqlite3_vtab_collation
 SQLite.so:sqlite3_vtab_config
+SQLite.so:sqlite3_vtab_distinct
+SQLite.so:sqlite3_vtab_in
+SQLite.so:sqlite3_vtab_in_first
+SQLite.so:sqlite3_vtab_in_next
 SQLite.so:sqlite3_vtab_nochange
 SQLite.so:sqlite3_vtab_on_conflict
+SQLite.so:sqlite3_vtab_rhs_value
 SQLite.so:sqlite3_wal_autocheckpoint
 SQLite.so:sqlite3_wal_checkpoint
 SQLite.so:sqlite3_wal_checkpoint_v2

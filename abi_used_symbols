@@ -41,7 +41,6 @@ UNKNOWN:Perl_more_sv
 UNKNOWN:Perl_my_cxt_init
 UNKNOWN:Perl_newCONSTSUB
 UNKNOWN:Perl_newRV
-UNKNOWN:Perl_newRV_noinc
 UNKNOWN:Perl_newSV
 UNKNOWN:Perl_newSViv
 UNKNOWN:Perl_newSVnv
@@ -56,7 +55,7 @@ UNKNOWN:Perl_newXS_flags
 UNKNOWN:Perl_pop_scope
 UNKNOWN:Perl_push_scope
 UNKNOWN:Perl_safesysfree
-UNKNOWN:Perl_savepv
+UNKNOWN:Perl_safesysmalloc
 UNKNOWN:Perl_savetmps
 UNKNOWN:Perl_stack_grow
 UNKNOWN:Perl_sv_2bool_flags
